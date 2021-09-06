@@ -1,4 +1,4 @@
-# Bem vindo ao meu primeiro HTML :smile:
+# Repositório de Atividades do curso de programação web e mobile :smile::computer:
 
 
 
