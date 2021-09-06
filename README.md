@@ -3,6 +3,11 @@
 
 
 - **MyBiography:**
-  - biography
+  - biography.html
   - favicon_blue.png
+  - douglas.jpg
+  - ken's song.mp3
+
+- **SubAndSuperScript:**
+  - SubAndSuperScript.html
 
