@@ -3,13 +3,15 @@
 
 
 - **01 - Meu Primeiro html:**
-  - biography.html
+  - Biografia.html
   - favicon_blue.png
   - douglas.jpg
   - ken's song.mp3
 
 - **02 - Subscrito e Sobrescrito:**
-  - SubAndSuperScript.html
+  - SubscritoESobrescrito.html
 - **03 - Listas e Tabelas:**
-  - Lists.html
+  - Lista1.html
+  - Tabela1Semestre.html
+  - Tabela2Bimestre.html
 
