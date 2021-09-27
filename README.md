@@ -10,16 +10,26 @@
 
 - **02 - Subscrito e Sobrescrito:**
   - SubscritoESobrescrito.html
+
 - **03 - Listas e Tabelas:**
   - Lista1.html
   - Tabela1Semestre.html
   - Tabela2Bimestre.html
+
 - **04 - Frames:**
   - animais.html
   - manual-do-investidor.html
+
 - **05 - Formularios:**
   - contato.html
   - login.html
   - solicitacao.html
   
+- **06 - Transparencia:**
+  - lojaDeCalçados.html
+  - sapato1.jpg
+  - sapato2.jpg
+  - sapato3.jpg
+  - sapato4.jpg
+  - sapato5.jpg
 
