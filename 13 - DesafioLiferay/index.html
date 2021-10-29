@@ -7,29 +7,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="fila.js" defer></script>
 </head>
 
 <body>
+
     <div class="logo">
         <img src="logo.png" alt="imagem" width="174.636px" height="55.272px">
     </div>
     <div class="glass">
         <div class="box">
             <div class="box-word">Adicionar cliente à fila:</div>
-            <input class="equeu-name" type="text" placeholder="Nome do cliente">
+            <input class="equeu-name" id="inputName" type="text" placeholder="Nome do cliente">
             <div class="box-word-last">
                 Escolha uma cor para a ficha:
                 <div class="box-color"><input type="color" name="colors" id="colors"></div>
             </div>
 
             <div class="buttons">
-                <button class="equeue" id="equeueButtom">Entrar na fila</button>
-                <button class="dequeue" id="dequeueButtom">Concluir atendimento</button>
+                <button class="equeue" id="btEqueue">Entrar na fila</button>
+                <button class="dequeue" id="btDequeue">Concluir atendimento</button>
             </div>
-                
 
         </div>
     </div>
+    
+    <div class="client-glass">
+        <div class="box">
+            <div class="client-box" id="client">
+                <div class="color-icon"></div>
+            </div> 
+        </div>
+    </div>
+
 </body>
 
 </html>
