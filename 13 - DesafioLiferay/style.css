@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(background2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica;
+}
+
+.logo{
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.glass{
+    background: inherit;
+    width: 500px;
+    height: 200px;
+    position: relative;
+    border-style: hidden;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 50px;
+    overflow: hidden;
+    
+}
+
+.glass:before {
+    content: "";
+    background: inherit;
+    position: absolute;
+    left: -25px;
+    right: 0;
+    top: -25px;
+    bottom: 0;
+    box-shadow: inset 0 0 0 200px rgba(255 ,255 ,255 ,0.12);
+    filter: blur(10px);
+}
+
+.box{
+    position: relative;
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 30px;
+    z-index: 1;
+}
+
+.box-word{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.box-word-last{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.box-color{
+    margin-left: 5px;
+}
+
+input.aqueu-name{
+    width: 235px;
+    height: 15px;
+    opacity: 0.7;
+    border-radius: 2px;
+    padding: 5px 15px;
+    border: 0;
+}
