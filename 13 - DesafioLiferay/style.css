@@ -72,11 +72,29 @@ body{
     margin-left: 5px;
 }
 
-input.aqueu-name{
+input.equeu-name{
     width: 235px;
     height: 15px;
     opacity: 0.7;
     border-radius: 2px;
     padding: 5px 15px;
     border: 0;
+}
+
+.buttons{
+    margin-bottom: 10px;
+}
+
+button.equeue{
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 30px;
+}
+
+button.dequeue{
+    background-color: blue;
+    color: white;
+    width: 150px;
+    height: 30px;
 }
