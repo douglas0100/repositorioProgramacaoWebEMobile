@@ -20,7 +20,7 @@ function Queue() {
         list.push(newClient);
         inputName.value = "";
         inputName.focus();
-        client.innerHTML = `${newClient.name}`;
+        client.innerHTML += `<div class="client-box">${newClient.name}</div>`;
         console.log("equeue " + `${list.length}`);
     }
 

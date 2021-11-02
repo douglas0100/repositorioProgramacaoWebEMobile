@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POKEDEX</title>
+    <link rel="stylesheet" href="style.css">
+    <link type="image/png" rel="icon" href="icon.png">
+    <script src="pokeApi.js" defer></script>
+
+</head>
+<body>
+
+    <div class="header">
+
+        <div class="logo">
+            <img src="logo.png" alt="imagem" width="40%">
+        </div>
+        
+    </div>
+
+   
+
+    <div class="main">
+
+        <div class="search">
+            <input class="searchPoke" id="pokename" type="text" placeholder="Nome ou id do pokemon">
+        </div>
+    
+        <div class="btSearchStyle">
+            <button class="btSearch" id="btSearch">Pesquisar</button>
+        </div>
+    
+        <div class="statusBox">
+
+            <img id="sprite" width="190px"></img>
+
+            <div class="pokeStatus">
+               
+                <h3 id="ident"></h3>
+                <h3 id="nameOut"></h3>
+                <h3 id="type"></h3>
+
+            </div>
+
+        </div>
+
+
+        <div class="itens"></div>
+
+    </div>
+
+
+    
+
+   
+
+    
+</body>
+</html>
